@@ -1,0 +1,34 @@
+{
+  "name": "Geometry",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Source": {
+        "$path": "src/ReplicatedSource"
+      },
+
+      "ClientSource": {
+        "$path": "src/ClientSource"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      },
+
+      "Source": {
+        "$path": "src/ServerSource"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
